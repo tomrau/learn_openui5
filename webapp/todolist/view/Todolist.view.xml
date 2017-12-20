@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="sap.ui.rt.todolist.controller.Todolist"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+    <App class="myAppDemoWT">
+		<pages>
+			<Page title="{i18n>appTitle}">
+				<content>
+					<Input id="todoInput" showSuggestion="false" placeholder="Enter Todo-item ..." submit="addTodo" />
+
+
+                    <Text class="sapUiSmallMargin" id="todoText" /> 
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
